@@ -1,7 +1,7 @@
 // 001: Get the Middle Character
 const getMiddle = str => str.subst(Math.ceil(str.length / 2 - 1 ), ~~(str.length/2+1));
 function getMiddle(str){
-  return str.slice((str.length-1)/2, str.length/2+1);}
+	return str.slice((str.length-1)/2, str.length/2+1);}
 
 // 002: Disemvowel Trolls
 const disemvowel = str =>str.replace(/[aiueo]/gi,'');
@@ -124,8 +124,8 @@ const binaryArrayToNumber = arr => arr.reduce((acc, val) => (acc = acc * 2 + val
 // 030: Find the divisors!
 function divisors(int) {
 	for ( var res= [], i = 2; i<= int/2; ++i ) if ( !int%i ) res.push(i);
-	return res.length ? res : `${int} is prime`;}
-const divisors = int => (res = [...Array(int).keys()].slice(2, int/2+1).filter(el => !(int%el)), res.length ? res : `${int} is prime`);
+		return res.length ? res : `${int} is prime`;}
+	const divisors = int => (res = [...Array(int).keys()].slice(2, int/2+1).filter(el => !(int%el)), res.length ? res : `${int} is prime`);
 
 // 031: Number of People in the Bus
 const number = busStops => [...busStops].reduce((acc, [on, off])=> acc + on - off,0);
@@ -134,7 +134,7 @@ const number = busStops => [...busStops].reduce((acc, [on, off])=> acc + on - of
 const removeSmallest = nums => {
 	let min = Math.min.apply(this, nums);
 	return [...nums.slice(0, min), ...nums.slice(++min)]};
-const removeSmallest=nums=> nums.filter((el, i)=> i!= nums.indexOf(Math.min(...nums)));
+	const removeSmallest=nums=> nums.filter((el, i)=> i!= nums.indexOf(Math.min(...nums)));
 
 // 033: String ends with?
 const solution=(str, end)=> str.match(end+'$') == end;
@@ -162,19 +162,19 @@ const oddOrEven = arr => arr.filter(el=> el & 1).length & 1 ? 'odd' : 'even';
 function calculateYears(principal, interest, tax, desired, y=0) {
 	while (principal < desired) {
 		principal+= principal*interest*(1-tax)
-    y++;
+		y++;
 	} return y;}
 	// Math.log(8)/Math.log(2) = logarithm of 8 with base 2 = 4
-const calculateYears=(P, interest, tax, desired)=>  Math.ceil(Math.log(desired / P) / Math.log(1 + interest * (1 - tax)));
+	const calculateYears=(P, interest, tax, desired)=>  Math.ceil(Math.log(desired / P) / Math.log(1 + interest * (1 - tax)));
 
 // 039: Find the stray number
 function stray(nums) {
 	for (let i in nums) {
 		if (nums.indexOf(nums[i] == nums.lastIndexOf(nums[i]))) return nums[i];
 	}} 
-const stray = nums => nums.reduce((acc, el)=> acc^el);
-const stray=nums=>  nums.filter( x => x == Math.max(...nums)).length == 1 ? 
-    Math.max(...nums): Math.min(...nums);
+	const stray = nums => nums.reduce((acc, el)=> acc^el);
+	const stray=nums=>  nums.filter( x => x == Math.max(...nums)).length == 1 ? 
+	Math.max(...nums): Math.min(...nums);
 
 // 040: Largest 5 digit number in a series
 function solution(dgt) {
@@ -233,11 +233,11 @@ const getDivisorsCnt = n => {
 	return  cont }
 // An slow one but clever
 const getDivisorsCnt = n => {
-  for (var total = 0, i = 1, length = Math.sqrt(n); i < length; total += (n%i++) ? 0 : 2);
-  return (n%length)? total: ++total}
-function getDivisorsCnt(n,i,t){
-    for(t=1,i=n>>1;i;t+=n%i--==0);
-    return t}
+	for (var total = 0, i = 1, length = Math.sqrt(n); i < length; total += (n%i++) ? 0 : 2);
+		return (n%length)? total: ++total}
+	function getDivisorsCnt(n,i,t){
+		for(t=1,i=n>>1;i;t+=n%i--==0);
+			return t}
 
 // 050: Sum of all the multiples of 3 or 5
 const findSum = FS = (n, res=0, i=0) => i <=n ? !(i%3) || !(i%5) ? FS(n, res+i, ++i) : FS(n, res, ++i) : res;
@@ -247,17 +247,140 @@ const findSum = n => [...Array(++n).keys()].reduce((acc, val)=> !(val%3 && val%5
 // 051: Maximum Length Difference
 const mxdiflg = (a1,a2) => a1.length && a2.length ?
 (x = a1.map(str=> str.length), y = a2.map(str=> str.length), 
-Math.max(Math.max(...x) - Math.min(...y), Math.max(...y) - Math.min(...x))) : -1;
+	Math.max(Math.max(...x) - Math.min(...y), Math.max(...y) - Math.min(...x))) : -1;
 
 const mxdiflg = (a1,a2, max=-1) =>{
-  for (let x of a1) for (let y of a2) 
-  max = Math.max(max, Math.abs(x.length - y.length))
-  return max}
+	for (let x of a1) for (let y of a2) 
+		max = Math.max(max, Math.abs(x.length - y.length))
+	return max}
 
 // 052: Deodorant Evaporator
 with (Math) evaporator = (content,epd,threshold) => ceil( log(threshold/100) / log(1-epd/100));
 
 // 053: Find the capitals
 let capitals = word => [...word].reduce((acc, cur, i)=> {
-    return /[A-Z]/.test(cur) && acc.push(i), acc;}, []);
+	return /[A-Z]/.test(cur) && acc.push(i), acc;}, []);
 let capitals = word => word.match(/[A-Z]/g).map(el=>word.indexOf(el));
+
+// 054: Anagram Detection
+const isAnagram = (test, original) =>
+[...test.toLowerCase()].sort().join`` == [...original.toLowerCase()].sort().join``;
+
+// 055: Sort Numbers
+const solution = nums => (nums||[]).sort((a,b) => a -b);
+
+// 056: Sort the Gift Code
+const sortGiftCode = code => [...code].sort().join``;
+
+// 057: Sum of numbers from 0 to N 
+let SequenceSum = {
+	showSequence : count => count<0 ? count+'<0' : 
+	[...Array(count+1).keys()].join('+') + (count ? ' = ' : '=') + count*(count+1)/2}
+
+// 058: Maximum Multiple 11ms / 
+const maxMultiple = (divisor,bound) => bound - bound % divisor ;
+
+// 059: Palindrome chain length 
+//speedwise: `${c}` > c+'', [...c] > split('') > split``
+const palindromeChainLength  = function(n) {
+	var x = parseInt(`${n}`.split``.reverse().join``);
+	if (n != x) return 1 + palindromeChainLength(n + x);
+	return 0;
+}
+
+// 060: Alternate capitalization 807ms / 1008ms / 246ms
+function capitalize(s) {
+	let even = [...s].map((char, key) => key&1? char: char.toUpperCase()).join('');
+	let odd = [...s].map((char, key) => key%2? char.toUpperCase() : char).join('');
+	return [even, odd]
+}
+function capitalize(s) {
+	return [0,1].map(res => [...s].map((val, i) => i%2 === res ? val.toUpperCase() : val).join(''));
+}
+function capitalize(str) {
+	const STR = str.toUpperCase();
+	let even = '', odd = '';
+	for (var i = 0; i < STR.length; i++) {
+		if (i&1) {
+			even += str[i];
+			odd += STR[i];
+		} else {
+			even += STR[i];
+			odd += str[i];
+		}		
+	}
+	return [even, odd]
+}
+
+// 061: Functional Addition 15ms/ 16ms
+function add(n) {
+	return function (m) { return n + m }
+}
+var add = a=> n=> n + a;
+
+// 062: Remove duplicate words 2860ms / 2139ms / 2055ms
+const removeDuplicateWords = arr => [...new Set(arr.split(' '))].join(' ');
+const removeDuplicateWords = arr => arr.split(' ').filter((val, key, arr) => arr.indexOf(val) == key).join(' ');
+function removeDuplicateWords(str) {
+	let arr = str.split(' '), output = [];
+	for (let el of arr)
+		if (!output.includes(el))
+			output.push(el)
+		return output.join(' ');
+	}
+// 063: Building Strings From a Hash 408ms / 255ms / 199ms
+//speedwise: string '' > array []+join();
+const solution = pairs=> Object.keys(pairs).map(key => `${key} = ${pairs[key]}`).join();
+function solution(pairs) {
+	let array = [];
+	for (let p in pairs) {
+		array.push((`${p} = ${pairs[p]}`))
+	} return array.join();
+}
+function solution(pairs){
+	let response = '';  
+	for (p in pairs) {
+		response += `${p} = ${pairs[p]},`;
+	} return response.slice(0, -1);
+}
+
+// 064: Find the middle element 466ms / 21ms
+// speedwise: function name(args) > const name = function (args)
+const gimme = arr=> arr.indexOf(arr.concat().sort((a,b)=> a-b)[1]);
+function gimme(a) {
+	if ((a[0] < a[1] && a[0] > a[2]) || 
+		(a[0] > a[1] && a[0] < a[2])) return 0;
+
+		if((a[1] < a[0] && a[1] > a[2]) ||
+			(a[1] > a[0] && a[1] < a[2])) return 1;
+
+			if ((a[2] < a[0] && a[2] > a[1]) ||
+				(a[2] > a[0] && a[2] < a[1])) return 2;
+		}
+// 065: Greet Me 213ms / 35ms
+//speedwise: slice > substr
+const greet = name => `Hello ${[...name][0].toUpperCase()+(name.toLowerCase().slice(1))}!`;
+const greet = name => `Hello ${name.charAt(0).toUpperCase()+name.slice(1).toLowerCase()}!`;
+
+// 066: Testing 1-2-3 134ms / 123ms
+const number = arr => arr.map((el, key) => `${++key}: ${el}`);
+const number = function(array){
+  if (array.length == 0) return [];
+  for (let i=0; i<array.length; ++i)
+    array[i] = (i+1) + ': ' + array[i];    
+  return array;
+}
+// 067: Number Of Occurrences 64ms / 32ms
+Array.prototype.numberOfOccurrences = function(n) {
+	return this.filter(el=> el == n).length;
+}
+Array.prototype.numberOfOccurrences = function (n) {
+	var occur = 0;
+	for (var i = 0; i < this.length; i++){
+		if (this[i] == n) occur++;
+	} return occur;
+}
+// 068: Predict your age!
+
+
+

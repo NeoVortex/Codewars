@@ -6,8 +6,8 @@ kata = n => n.split``.map(x => x.substr(0,1).toUpperCase()).join('.');
 // reduce splited the string into many values
 points = g => g.reduce((tt, [hm,_,gst]) => tt + (hm > gst? 3: hm == gst), 0)
 points = g => g.map(m => m[0] - m[2])
-			 .filter(m => m >= 0)
-			 .reduce((ac, m)=> ac + (m > 0? 3 : 1), 0)
+.filter(m => m >= 0)
+.reduce((ac, m)=> ac + (m > 0? 3 : 1), 0)
 
 // 003: Array plus array
 apa = (a1, a2) => a1.concat(a2).reduce((ac, e) => ac + e);
@@ -24,17 +24,17 @@ check = (a,x) => a.some(a => a == x);
 
 // 006: Get Planet Name By ID
 getPlanetName = (id) => ({
-		  1: 'Mercury',
-		  2: 'Venus',
-		  3: 'Earth',
-		  4: 'Mars',
-		  5: 'Jupiter',
-		  6: 'Saturn',
-		  7: 'Uranus',
-		  8: 'Neptune',
-			} [id]);
+	1: 'Mercury',
+	2: 'Venus',
+	3: 'Earth',
+	4: 'Mars',
+	5: 'Jupiter',
+	6: 'Saturn',
+	7: 'Uranus',
+	8: 'Neptune',
+} [id]);
 getPlanetName = id =>({[null,'Mercury','Venus','Earth','Mars','Jupiter',
-			'Saturn','Uranus','Neptune'][id]});
+	'Saturn','Uranus','Neptune'][id]});
 
 // 007: Sum of positive
 positiveSum = arr => arr.reduce((a, e) => a+(c>0? c : 0));
@@ -42,8 +42,8 @@ positiveSum = arr => arr.reduce((a, e) => a+(c>0? c : 0));
 // 008: altERnaTIng cAsE - ALTerNAtiNG CaSe// It seems that in prototypes you MUST create a function with return
 String.prototype.toAlternatingCase = function () { return this.split("").map(a => a === a.toUpperCase()? a.toLowerCase(): a.toUpperCase()).join('')};
 String.prototype.toAlternatingCase = function() {
-  return [...this].map(c => c[`to${c > 'Z' ? 'Upp' : 'Low'}erCase`]()
-  ).join``;
+	return [...this].map(c => c[`to${c > 'Z' ? 'Upp' : 'Low'}erCase`]()
+		).join``;
 }
 // 009: Is the string uppercase// It seems that in PROTOTYPES you MUST create a function with return
 String.prototype.iUC =function(){ return this.toUpperCase() == this;}
@@ -94,7 +94,7 @@ let a = 123+``;
 
 // 022: L1 Bartender, drinks!
 gdbpf = params => ({// parenthesis
-			jabroni:'Patron Tequila',
+	jabroni:'Patron Tequila',
 			'school counselor':'Anything with Alcohol',// more than one word
 			programmer:'Hipster Craft Beer',
 			'bike gang member':'Moonshine',
@@ -224,7 +224,7 @@ rc=s=> s.replace(/(^.|.$)/g, '');
 // 055: Sum Mixed Array
 sm=a=> a.map(e=>+e).reduce((ac,v)=> ac+v);
 sm=a=> a.reduce((ac, e)=> +e + +ac);//"el" and "acc" become numbers, remove parenthesis
- sm=a=> eval(a.join('+'));
+sm=a=> eval(a.join('+'));
 
 // 056: Square(n) Sum
 ss=a=> a.reduce((ac,n)=> ac + n*n, 0);
@@ -290,16 +290,16 @@ ibv=(r,x,y)=> 2*r*r(x-y); // whoot?? >.<
 function Ship(draft, crew) {
 	this.draft = draft;
 	this.crew = crew;}
-Ship.prototype.isWorthIt = function () {
-	return this.draft - (this.crew*1.5) > 20;}
+	Ship.prototype.isWorthIt = function () {
+		return this.draft - (this.crew*1.5) > 20;}
 
 // 073: Training JS #14- Methods of Number object--toString() and toLocaleString()
 function toHex(n) {
 	let res = n.toString(16);
 	return res.length == 1 ? `0${res}` : res;}
-colorOf = (r,g,b)=> `#${toHex(r)+toHex(g)+toHex(b)}`;
+	colorOf = (r,g,b)=> `#${toHex(r)+toHex(g)+toHex(b)}`;
 
-colorOf=(r,g,b)=> '#' + rgb.map(e=> `0${toString(16)}`.slice(-2)).join``;
+	colorOf=(r,g,b)=> '#' + rgb.map(e=> `0${toString(16)}`.slice(-2)).join``;
 colorOf=(r,g,b)=>`#${[r,g,b].map(e=> e.toString(16).padStart(2,0)).join``};`// fill with '0' until reach 2 elms
 
 // 074: Be Concise IV - Index of an element in an array
@@ -310,23 +310,23 @@ cc=(a,b,m=0)=> Math.abs(a-b)<=m? 0 : Math.sign(a-b);
 
 // 076: 8kyu interpreters - HQ9+
 function HQ9(c) {
-  switch (c) {
-    case 'H': return 'Hello World!';
-    case 'Q': return c;
-    case '9': return beer(99);
-    default: return undefined;  }}
-function beer(ct) {
-  if (ct === 2) {
-    return '2 bottles of beer on the wall, 2 bottles of beer.\n' +
-        'Take one down and pass it around, 1 bottle of beer on the wall.\n' +
-        '1 bottle of beer on the wall, 1 bottle of beer.\n' +
-        'Take one down and pass it around, no more bottles of beer on the wall.\n' +
-        'No more bottles of beer on the wall, no more bottles of beer.\n' +
-        'Go to the store and buy some more, 99 bottles of beer on the wall.';
-  } else {
-    return `${ct} bottles of beer on the wall, ${ct} bottles of beer.\n` +
-        `Take one down and pass it around, ${ct - 1} bottles of beer on the wall.\n` +
-        beer(ct - 1); }}
+	switch (c) {
+		case 'H': return 'Hello World!';
+		case 'Q': return c;
+		case '9': return beer(99);
+		default: return undefined;  }}
+		function beer(ct) {
+			if (ct === 2) {
+				return '2 bottles of beer on the wall, 2 bottles of beer.\n' +
+				'Take one down and pass it around, 1 bottle of beer on the wall.\n' +
+				'1 bottle of beer on the wall, 1 bottle of beer.\n' +
+				'Take one down and pass it around, no more bottles of beer on the wall.\n' +
+				'No more bottles of beer on the wall, no more bottles of beer.\n' +
+				'Go to the store and buy some more, 99 bottles of beer on the wall.';
+			} else {
+				return `${ct} bottles of beer on the wall, ${ct} bottles of beer.\n` +
+				`Take one down and pass it around, ${ct - 1} bottles of beer on the wall.\n` +
+				beer(ct - 1); }}
 
 // 077: Swap Values
 function sv() {
@@ -389,7 +389,7 @@ np=(n,p)=> Array(p).fill(n).reduce((res,n)=> res*n,1);
 // 092:Convert to Binary
 tb=n=> +n.toString(2);
 tb=n=>0..constructor(0..toString.call(...[].reverse.call([].concat.bind([2])(n))))
-		document.write(toBinary(5));
+document.write(toBinary(5));
 		// constructor: changes the Constructor type of Number to ...
 		// call: applies the "toString" method of 'Number' on '(_)'
 		// reverse.call: applies the "reverse" method on '(_)' AND add 'n' as argument
@@ -398,7 +398,7 @@ tb=n=>0..constructor(0..toString.call(...[].reverse.call([].concat.bind([2])(n))
 
 // 093: Grasshopper - Order of operations
 function orderOperations () {"+*+*";
-  return "Hi there. Doesn't seem like the tests are very rigorous".charCodeAt(2);
+return "Hi there. Doesn't seem like the tests are very rigorous".charCodeAt(2);
 
 // 094: Grasshopper - Function syntax debugging
 main = (v, n) => v + n;
@@ -428,12 +428,12 @@ let Person = {
 
 // 101: simple calculator
 calculator = (a,b s) => !isNaN(a) && !isNaN(b) && [\+\-\*\/].includes(s) ?
-	eval(a+s+b) : "unknown value";
+eval(a+s+b) : "unknown value";
 c = (a,b,s) => [\+\-\*\/].test(s) && Number.isInteger(a+b) ? a+b : "unknown value";
 
 // 102: For UFC Fans (Total Beginners): Conor McGregor vs George Saint Pierre
 quote =_=> _[15]? "I am not impressed by your performance."
-	:"I'd like to take this chance to apologize.. To absolutely NOBODY!"
+:"I'd like to take this chance to apologize.. To absolutely NOBODY!"
 quote = (f, _={'george saint pierre':"I am not impressed by your performance.",
 	'conor mcgregor': "I'd like to take this chance to apologize.. To absolutely NOBODY!"})=> _[f.toLowerCase()];
 
@@ -486,10 +486,10 @@ include = (arr, item)=> Boolean(~arr.indexOf(item)); // ~N -> -(N+1) = 0
 
 // 115: Area of a Square
 function squareArea(A){
-  var circum = 4 * A;
-  var radius = circum / (2 * Math.PI);
-  var area = Math.pow(radius, 2);
-  return Math.round(area*100)/100
+	var circum = 4 * A;
+	var radius = circum / (2 * Math.PI);
+	var area = Math.pow(radius, 2);
+	return Math.round(area*100)/100
 }
 squareArea = A => +((2*A/Math.PI)**2).toFixed(2);
 
@@ -552,7 +552,7 @@ String.prototype.isUpperCase = function() {
 // this == this.toUpperCase()};
   return !/[a-z]/.test(this);// If there is a match this method returns true
 // searches for a specified value, and returns the position of the match
-  return this.search(/[a-z]/g) == -1;
+return this.search(/[a-z]/g) == -1;
 
 // 128: Be Concise II - I Need Squares
 // filter: array with elements that passed a test, sqrt (cubo: **(1/3), quarta: **0.25)
@@ -589,8 +589,8 @@ fiveLine = s => [...Array(5).keys()].map( i => s.trim().repeat(i+1)).join('\n');
 // 137: Find the force of gravity between two objects
 solution = ([m1,m2,d],[um1,um2,ud]) => {
 	const G = 6.67e-11, conversion = {kg:1, g:1e-3, mg:1e-6, μg:1e-9, lb:.453592,
-						m:1, cm:1e-2, mm:1e-3, μm:1e-6, ft:.3048};
-return G * m1 * conversion[um1] * m2 * conversion[um2] / (d * conversion[ud]) ** 2;}
+		m:1, cm:1e-2, mm:1e-3, μm:1e-6, ft:.3048};
+		return G * m1 * conversion[um1] * m2 * conversion[um2] / (d * conversion[ud]) ** 2;}
 
 // 138: Simple Fun #// 261: Whose Move
 whoseMove = (lp, win) => win?lp:lp=="white"?"black":"white";
@@ -607,10 +607,10 @@ circleArea = circle => circle.radius ** 2 * Math.PI
 
 // 141: Leonardo Dicaprio and Oscars
 leo = oscar =>(
-  		 oscar==88 ? "Leo finally won the oscar! Leo is happy" :
-         oscar==86 ? "Not even for Wolf of wallstreet?!" :
-         oscar<88 ?  "When will you give Leo an Oscar?" :
-                     "Leo got one already!")
+	oscar==88 ? "Leo finally won the oscar! Leo is happy" :
+	oscar==86 ? "Not even for Wolf of wallstreet?!" :
+	oscar<88 ?  "When will you give Leo an Oscar?" :
+	"Leo got one already!")
 
 // 142: Training JS #6: Basic data types--Boolean and conditional statements if..else
 tf = v => Boolean(v)+''
@@ -627,7 +627,7 @@ cn = (...n) => n.join(' ');//(...n) is a full array, (...n).arg splits every ele
 websites = Array.apply(null, Array(1000)).map(String.prototype.valueOf, 'codewars');
 var websites = [], i = 1000;
 while(i--) {
-  websites.push('codewars');
+	websites.push('codewars');
 } 
 
 // 146: Safen User Input Part I - htmlspecialchars
@@ -689,7 +689,7 @@ ssr = a => a.map(a=> (r=> r%1? a*a : r)(a**.5));
 // 160: Training JS #8: Conditional statement--switch
 function hmd(m){
 	switch(m){case 2: return 28; case 4:case 6:case 9:case 11: return 30;}return 31;}
-hmd=m=>new Date(2015, m, 0).getDate();
+	hmd=m=>new Date(2015, m, 0).getDate();
 
 // 161: Training JS #10: loop statement --for
 rps = (p1, p2) => p1 == p2? 'Draw' : `Player ${/rockscissors|scissorspaper|paperrock/.test(p1+p2)? 1 : 2} won!`
@@ -724,9 +724,9 @@ plural = n => Boolean(n-1);
 
 // 169: Training JS #10: loop statement --for
 function pickIt(a){
-  var odd=[],even=[], i=0;
-for (i of a){
-	((i&2)? odd : even).push(i)
+	var odd=[],even=[], i=0;
+	for (i of a){
+		((i&2)? odd : even).push(i)
 	} 
 	return [odd,even];
 }
@@ -737,7 +737,7 @@ pI=a=> [a.filter(e=>e&1),a.filter(e=>!(e%2))];
 // 170: 101 Dalmatians - squash the bugs, not the dogs! =_=''
 hmd = n =>{n = 0+(n>10)+(n>50)+(n==101) 
 	return ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!",
-	 "101 DALMATIANS!!!"][n]}
+	"101 DALMATIANS!!!"][n]}
 
 // 171: Opposites Attract // XOR verifies if just one last digit will be '1'
 lf = (f1,f2) => !!((f1^f2)&1);
@@ -766,7 +766,7 @@ this.fsi = Function.apply.bind(Math.min, null);
 // 177: Sum Arrays
 sum = a => a.reduce((ac, e)=> ac + e, 0);
 function sum (a) { // ZERO means NULL
-    a.length == 0 ? 0 : a.shift() + sum(a);};
+	a.length == 0 ? 0 : a.shift() + sum(a);};
 
 // 178: Count by X
 countBy = (x, n) => Array.from({length:n},(_,i) => (i+1)*x);
@@ -792,7 +792,7 @@ const f = s => `Hello, ${s}!`
 const greet_abe = _ => f("Abe"), greet_ben = _ => f("Ben")
 
 TDD:Test.assertEquals(1 + 1, 2);
-    assert.strictEqual(1 + 1, 2);
+assert.strictEqual(1 + 1, 2);
 
 // 183: Points of Reflection	
 sp = (p, q)=> [2*q[0] - p[0], 2*q[1]  - p[1]]
@@ -818,7 +818,7 @@ dbe = i => Math.round(10 * Math.log10(i/1e-12));
 // 188: Is the date today // Wed Jun 03 2020
 it = d => new Date().toDateString() === d.toDateString();
 it = d => (n = new Date(), ['getDate', 'getMonth', 'getFullYear'].every( v =>
-	 d[v] == n[v]()));
+	d[v] == n[v]()));
 it = d => (t = new Date(), t.setHours(0,0,0,0) == d.setHours(0,0,0,0));
 
 // 189: Take an Arrow to the knee, Functionally
@@ -862,10 +862,10 @@ ci = a => (min = Math.min(...a.map(v => v.length)), a.map(v => v.slice(0, min)))
 
 // 196: Finish Guess the Number Game
 class Guesser {
-  constructor(number, lives) {
-    this.number = number;
-    this.lives = lives;
-  }
+	constructor(number, lives) {
+		this.number = number;
+		this.lives = lives;
+	}
 	guess(n) {
 		if (!this.lives) throw Error;
 		this.lives--;
@@ -905,7 +905,7 @@ ca = (b, y) => [
 // 204: UEFA EURO 2016
 ue = ([t1, t2], [s1, s2]) => 
 `At match ${t1} - ${t2}, ${s1 == s2 ? 
-`teams played draw.`:`${s1>s2? t1:t2} won!`}`
+	`teams played draw.`:`${s1>s2? t1:t2} won!`}`
 
 // 205: Training JS #29: methods of arrayObject---concat() and join()
 // var arr=[[1,2],[3,4],[5,6]];
@@ -1044,7 +1044,7 @@ none = (a,f)=> a.map(f).filter(Boolean).length==0;// Boolean filters all 'true'
 pi= (s,n)=> '*'.repeat(Math.ceil(n/2)) +str+ '*'.repeat(~~(n/2))
 pi = (s,n)=>{ 
 	while (n--)
- 	s = (n&1)==0? "*"+s : s+"*" 
+		s = (n&1)==0? "*"+s : s+"*" 
 	return s;
 }
 
@@ -1056,8 +1056,8 @@ function wrap(obj) {
 	return {
 		'value': obj,
 	}}
-wrap = v => ({value: v});
-wrap = value => ({value});
+	wrap = v => ({value: v});
+	wrap = value => ({value});
 
 // 241: Find variable which breaks strict comparison!
 //; unaries and () turns a function declaration in a function expression: function() { console.log("Foo!");} --> +function() { console.log("Foo!"); }();
@@ -1072,11 +1072,11 @@ p =(x, y)=> Array(y+1).fill(x).reduce((ac,v)=> ac*v, 1)
 
 // 244: Hello Happy Codevarrior!
 function Warrior(n){
-  let name = n;
-  this.name = function(n){
-    if( n ) name=n;
-    return name;
-  }};
+	let name = n;
+	this.name = function(n){
+		if( n ) name=n;
+		return name;
+	}};
 
 // 245: Be Concise III - Sum Squares
 ss = a => a.reduce((ac, e)=> ac+ e*e, 0);
@@ -1088,9 +1088,9 @@ isn = Number.NaN || isn = n => n != n || Object.is(NaN, n)// Obj.is= is the SAME
 yd = y=> {let leap = !(y%4), except = (y%100)? true: !(y%400);
 	return `${y} has 36${leap && except? 6:5} days`}
 
-yd = y => `${y} has 36${!(y%100) && y%400 || y%4? 5:6} days`;
+	yd = y => `${y} has 36${!(y%100) && y%400 || y%4? 5:6} days`;
 
-yd = y => (d = y%4? 5 : y%100? 6 : y%400? 5 : 6, `${y} has 36${d} days`);
+	yd = y => (d = y%4? 5 : y%100? 6 : y%400? 5 : 6, `${y} has 36${d} days`);
 
 // 248: BASIC: Making Six Toast.
 st = n => Math.abs(6-n);
@@ -1105,8 +1105,8 @@ bt = ([t,a],[r,n],[i,g])=> [t+r+i,a+n+g].map(e=> +(e/3).toFixed(4));
 
 // 251: Configure package json for a node application
 const configuration = {
-  "name": "-",
-  "version":"0.0.0"
+	"name": "-",
+	"version":"0.0.0"
 };
 
 // 252: Contamination #1 -String-
@@ -1115,21 +1115,21 @@ c= (s, c) => c.repeat(s.length);
 
 // 253: Training JS #13: Number object and its properties
 function wnit(n){
-return `Input number is ${
-	n === Number.MAX_VALUE ? 'Number.MAX_VALUE' : 
-	n === Number.MIN_VALUE ? 	'Number.MIN_VALUE' :
-	isNaN(n) ? 'Number.NaN' :
-	n === Number.NEGATIVE_INFINITY ? 'Number.NEGATIVE_INFINITY' :
-	n === Number.POSITIVE_INFINITY ? 'Number.POSITIVE_INFINITY' : n}`;}
+	return `Input number is ${
+		n === Number.MAX_VALUE ? 'Number.MAX_VALUE' : 
+		n === Number.MIN_VALUE ? 	'Number.MIN_VALUE' :
+		isNaN(n) ? 'Number.NaN' :
+		n === Number.NEGATIVE_INFINITY ? 'Number.NEGATIVE_INFINITY' :
+		n === Number.POSITIVE_INFINITY ? 'Number.POSITIVE_INFINITY' : n}`;}
 
-const objN = {
-	[Number.MAX_VALUE]: 'Number.MAX_VALUE',
-  [Number.MIN_VALUE]: 'Number.MIN_VALUE',
-  [-Infinity]: 'Number.NEGATIVE_INFINITY',
-  [Infinity]: 'Number.POSITIVE_INFINITY'
-}
-const whatNumberIsIt=n=> `Input number is ${isNaN(n)? 'Number.NaN' :
-	(objN[n] || n)}`;
+		const objN = {
+			[Number.MAX_VALUE]: 'Number.MAX_VALUE',
+			[Number.MIN_VALUE]: 'Number.MIN_VALUE',
+			[-Infinity]: 'Number.NEGATIVE_INFINITY',
+			[Infinity]: 'Number.POSITIVE_INFINITY'
+		}
+		const whatNumberIsIt=n=> `Input number is ${isNaN(n)? 'Number.NaN' :
+		(objN[n] || n)}`;
 
 // 254: Parse float
 pf = n=> isNaN(parseFloat(n))? null : parseFloat(n);
@@ -1138,10 +1138,10 @@ pf = n=> /\d+/.test(n)? +n : null;
 // 255: Fun with ES6 Classes #1 - People, people, people
 class Person {
 	constructor (firstName[cap(fst)]= ${surname[cap(lst)]} 'John',	lastName= 'Doe',	age= 0,	gender= 'Male'){
-	this.firstName[cap(fst)]  ${surname[cap(lst)]}= firstName[cap(fst)]; ${surname[cap(lst)]}
-	this.lastName = lastName;
-	this.age = age;
-	this.gender = gender;	
+		this.firstName[cap(fst)]  ${surname[cap(lst)]}= firstName[cap(fst)]; ${surname[cap(lst)]}
+		this.lastName = lastName;
+		this.age = age;
+		this.gender = gender;	
 	}
 	sayFullName() {
 		return `${this.firstName[cap(fst)]} ${surname[cap(lst)]} ${this.lastName}`;
@@ -1189,7 +1189,7 @@ o =(s,a)=> [...s].map(c => c === c.toUpperCase() ? c.toLowerCase() : c.toUpperCa
 
 // 264: Barking mad
 function Dog (breed) {
-  this.breed = breed;
+	this.breed = breed;
 }
 
 Dog.prototype.bark = () => "Woof";
@@ -1206,8 +1206,8 @@ gc = String.fromCharCode;
 
 // 266: Invalid Login - Bug Fixing #11// I really didn't get this kata, so just copied the most popular solution :-)
 function validate(username, password){
-  var valid = new Validator();
-  return valid.login(username, escape(password));
+	var valid = new Validator();
+	return valid.login(username, escape(password));
 }
 
 // 267: Exclamation marks series #11: Replace all vowel to exclamation mark in the sentence
@@ -1225,12 +1225,12 @@ c=v=> `Who ate the last cookie? It was ${({string: 'Zach', number: 'Monica'}[typ
 c=v=> `Who ate the last cookie? It was ${v.sub ? 'Zach' : v.toFixed ? 'Monica' : 'the dog'}!`// sub/sup methods only applies for strings
 
  // 271: Age Range Compatibility Equation
-dr=a=> a > 14? `${~~(a/2+7)}-${(~~(a-7)*2)}` : `${~~(a - a*.1)}-${~~(a + a*.1)}`
-dr=a=> [a <= 14? .9*a : .5*a + 7, a <= 14? 1.1*a : 2*a - 14].map(Math.floor).join('-');
+ dr=a=> a > 14? `${~~(a/2+7)}-${(~~(a-7)*2)}` : `${~~(a - a*.1)}-${~~(a + a*.1)}`
+ dr=a=> [a <= 14? .9*a : .5*a + 7, a <= 14? 1.1*a : 2*a - 14].map(Math.floor).join('-');
 
 // 272: Fix your code before the garden dies!
 ra=mm=> { if (mm < 40) return `You need to give your plant ${40 - mm}mm of water`;
-	return `Your plant has had more than enough water for today!` } 
+return `Your plant has had more than enough water for today!` } 
 
 // 273: Duck Duck Goose
 ddg=>(a,n)=>a[(n-1)%a.length].name
@@ -1261,17 +1261,17 @@ ds=n=> Array(n).fill('I').map((I,v)=>I.padStart(++v,` `)).join('\n');
 
 // 279: Grasshopper - Terminal Game #1
 function Hero (name) {
-   this.name= name || "Hero";
-   this.position= '00';
-   this.health= 100;
-   this.damage= 5;
-   this.experience= 0
- }
+	this.name= name || "Hero";
+	this.position= '00';
+	this.health= 100;
+	this.damage= 5;
+	this.experience= 0
+}
 
 class Hero {
 	constructor(name='Hero', position='00', health=100, damage=5, experience=0) {
 		Object.assign(this, {name, position, health, damage, experience})
-}}
+	}}
 
 // 280: Training JS #2: Basic data types--Number
 let v1=50,v2=100,v3=150,v4=200,v5=2,v6=250,
@@ -1309,16 +1309,16 @@ function evalObject (v) {
 		case '^': return v.a ** v.b;
 	}}
 
-const evalObject = v = ({
-	'+': (a,b) => a + b,
-	'-': (a,b) => a - b,
-	'*': (a,b) => a * b,
-	'/': (a,b) => a / b,
-	'%': (a,b) => a % b,
-	'': Math.pow,
-}[v.operation](v.a, v.b))
+	const evalObject = v = ({
+		'+': (a,b) => a + b,
+		'-': (a,b) => a - b,
+		'*': (a,b) => a * b,
+		'/': (a,b) => a / b,
+		'%': (a,b) => a % b,
+		'': Math.pow,
+	}[v.operation](v.a, v.b))
 
-let ops={'+':(a,b)=>a+b,'-':(a,b)=>a-b,'*':(a,b)=>a*b,'/':(a,b)=>a/b,'%':(a,b)=>a%b,'':Math.pow,}, evalObject = v=> ops[v.operation](v.a, v.b);
+	let ops={'+':(a,b)=>a+b,'-':(a,b)=>a-b,'*':(a,b)=>a*b,'/':(a,b)=>a/b,'%':(a,b)=>a%b,'':Math.pow,}, evalObject = v=> ops[v.operation](v.a, v.b);
 
 // 288: Heads and Legs
 function animals(h,l) { let ox = l/2 - h, hen = h - ox;
@@ -1345,11 +1345,11 @@ let drinks = { "jabroni": "Patron Tequila",
 const getDrinkByProfession = p => drinks[p.toLowerCase()] || "Beer"
 
 gdbp=p=>({ jabroni: "Patron Tequila",
-"school counselor": "Anything with Alcohol",
-programmer: "Hipster Craft Beer",
-"bike gang member": "Moonshine",
-politician: "Your tax dollars",
-rapper: "Cristal"})[p.toLowerCase()]||"Beer"
+	"school counselor": "Anything with Alcohol",
+	programmer: "Hipster Craft Beer",
+	"bike gang member": "Moonshine",
+	politician: "Your tax dollars",
+	rapper: "Cristal"})[p.toLowerCase()]||"Beer"
 
 // 293: How good are you really?
 bta=(c,y)=> c.reduce((ac,v)=> ac+v, 0)/c.length < y;
@@ -1365,16 +1365,16 @@ s=s=> [...Array(s)].map((v,i)=> ~i&1.join``;// not true = false
 
 // 296: Classy Classes
 class Person {
-  constructor(name, age) {
-  this.name = name;
-  this.age = age;}
-  
-  get info() {
-  return `${this.name}s age is ${this.age}`;}
+	constructor(name, age) {
+		this.name = name;
+		this.age = age;}
+		
+		get info() {
+			return `${this.name}s age is ${this.age}`;}
 
-class Person {
-	constructor(n, a) {
-		this.info = `${n}s age is ${a}`}}
+			class Person {
+				constructor(n, a) {
+					this.info = `${n}s age is ${a}`}}
 
 // 297: Will there be enough space?
 e=(c,o,w)=> Math.max(o+w-c, 0);// OR 0
@@ -1418,8 +1418,8 @@ ns=s=> s.split` `.join``;
 
 // 308: SpeedCode #3 × Fun with ES6 Classes #5 - Dogs and Classes
 class Labrador extends Dog{
-    constructor(name, age, gender, master) {
-  	super(name, age, gender, "Labrador", "Large", master, true)}};
+	constructor(name, age, gender, master) {
+		super(name, age, gender, "Labrador", "Large", master, true)}};
 
 // 309: Aspect Ratio Cropping - Part 1
 ar=(x,y)=>Math.round(16*y/x/9)
@@ -1427,21 +1427,21 @@ ar=(x,y)=>Math.round(16*y/x/9)
 // 310: Simple Change Machine
 function changeMe(v) {
 	switch (v) {
-	case "£5": return "20p ".repeat(25).trim();
-	case "£2": return "20p ".repeat(10).trim();
-	case "£1": return "20p ".repeat(5).trim();
-	case "50p":return "20p 20p 10p";
-	case "20p":return "10p 10p";
-	  default: return v}}
+		case "£5": return "20p ".repeat(25).trim();
+		case "£2": return "20p ".repeat(10).trim();
+		case "£1": return "20p ".repeat(5).trim();
+		case "50p":return "20p 20p 10p";
+		case "20p":return "10p 10p";
+		default: return v}}
 
 // 311: Do something "n.times" (Simplifying "for" loops)
 Number.prototype.times = function (f) {
 	for (let i = 0; i < this; i++) {
 		f(i)}}
 
-Number.prototype.times = function (fn) {
-	let n = 0;
-	while (n < this) fn(n++)}
+		Number.prototype.times = function (fn) {
+			let n = 0;
+			while (n < this) fn(n++)}
 
 // 312: Blood-Alcohol Content
 bac=(d, w, s, t)=> +((5.14*d.ounces*d.abv/w*(s == 'male'? .73:.66) - (.015*t)).toFixed(4));
@@ -1464,12 +1464,12 @@ vh = g => /h[ae]llo|ciao|salut|hola|ahoj|czesc/i.test(g);
 
 // 318: Playing with cubes II
 class Cube {	constructor(side=0) {this.side = side}
-	getSide(){ return Math.abs(this.side)}
-	setSide(side){this.side = side}}
+getSide(){ return Math.abs(this.side)}
+setSide(side){this.side = side}}
 
 class Cube{ constructor(side){this.setSide(side)}
-	getSide(){return this.side}
-	setSide(side=0){this.side = Math.abs(side)}}
+getSide(){return this.side}
+setSide(side=0){this.side = Math.abs(side)}}
 
 // 319: Mr. Freeze
 Object.freeze(MrFreeze)
@@ -1529,7 +1529,7 @@ function gimme5(o){
 	for(let k in o){
 		if (k.length===5) f.push(k);
 		if (o[k].length===5) f.push(o[k]);}
-	return f;}
+		return f;}
 
 // 333: Push a hash/an object into array
 let items = [];
@@ -1577,17 +1577,17 @@ return c.minSalary*.9<=j.maxSalary}
 class God{
 	static create(){
 		return[new Man, new Woman]; }}
-class Human{};
-class Man extends Human{};
-class Woman extends Human{};
+		class Human{};
+		class Man extends Human{};
+		class Woman extends Human{};
 
 // 343: Training JS #11: loop statement --break,continue
 function grabDoll(dolls){
-  let bag=[], doll;
-  for (doll of dolls){
-  	if (doll === 'Hello Kitty' || doll === 'Barbie doll') bag.push(doll)
-  	if (bag.length === 3) break;
-  } return bag}
+	let bag=[], doll;
+	for (doll of dolls){
+		if (doll === 'Hello Kitty' || doll === 'Barbie doll') bag.push(doll)
+			if (bag.length === 3) break;
+	} return bag}
 
 // 344: Find the position!
 p=c=> `Position of alphabet: ${c.charCodeAt()-96}`;
@@ -1599,7 +1599,7 @@ f=s=> s.replace(/[\SEX]+/g, 'sex');
 
 // 346: Multiple of index
 moi=a=>a.filter((n,i)=> i && !(n%i);
-moi=a=>a.filter((n,i)=> n%i==0);
+	moi=a=>a.filter((n,i)=> n%i==0);
 
 // 347: Miles per gallon to kilometers per liter
 c=m=> Math.round(m*35.40060435382138)/100;
@@ -1614,7 +1614,7 @@ function isVow(a){
 	for(let i in a){
 		let c = String.fromCharCode(a[i]);// turns number in char
 		if('aeiou'.indexOf(c) != -1) a[i]=c; 
-      return a}}
+		return a}}
 // define a variable inside the ternary op
 iv=s=> s.map(e=> 'aeiou'.includes(c=String.fromCharCode(e))? c:e);
 iv=s=> s.map(e=> ({97:'a', 101:'e', 105:'i', 111:'o', 117:'u'})[e]||e);
@@ -1635,14 +1635,14 @@ answer1=()=>'no', answer2=()=>'no', answer3=()=>'yes'
 // 353: Broken Counter
 function Counter() {
 	this.value = 0;}
-Counter.prototype = {
-	increase: function () {this.value++},
-	getValue: function () {return this.value;},
-	reset: function () {this.value = 0;}};
-/* ------------OR ELSE---------------*/
-Counter.prototype.increase=()=> this.value++;
-Counter.prototype.reset=()=> this.value=0;
-Counter.prototype.getValue=()=> {return this.value}
+	Counter.prototype = {
+		increase: function () {this.value++},
+		getValue: function () {return this.value;},
+		reset: function () {this.value = 0;}};
+		/* ------------OR ELSE---------------*/
+		Counter.prototype.increase=()=> this.value++;
+		Counter.prototype.reset=()=> this.value=0;
+		Counter.prototype.getValue=()=> {return this.value}
 
 // 354: Basic Training: Add item to an Array
 websites.push('codewars');
@@ -1662,11 +1662,11 @@ a=({name,legs,color})=> `This ${color} ${name} has ${legs} legs.`
 
 // 359: Fix the Bugs (Syntax) - My First Kata
 function mfk(a, b) {
-  if (typeof(a) != "number" || typeof(b) != "number") {
-   return false;
-  } else { return a % b + b % a; }}
+	if (typeof(a) != "number" || typeof(b) != "number") {
+		return false;
+	} else { return a % b + b % a; }}
 
-mfk=(a,b)=> typeof a !== 'number' || typeof b !== 'number'? false: a%b+b%a;
+	mfk=(a,b)=> typeof a !== 'number' || typeof b !== 'number'? false: a%b+b%a;
 
 // 360:Evil or Odious
 evil=n=> `It's ${n.toString(2).match(/1/g).length&1? 'Odious':'Evil'}!`
@@ -1692,7 +1692,7 @@ rw=s=> s.split` `.reverse().join` `;
 // 365: Sleigh Authentication
 function Sleigh() {}
 Sleigh.prototype.authenticate = function(n, p) {
-  return n === 'Santa Claus' && p === 'Ho Ho Ho!'};
+	return n === 'Santa Claus' && p === 'Ho Ho Ho!'};
 
 // 366: A wolf in sheep's clothing
 wts=q=>{
@@ -1700,9 +1700,9 @@ wts=q=>{
 	p > 0 ? `Oi! Sheep number ${p}! You are about to be eaten by a wolf!`:
 	`Pls go away and stop eating my sheep`;}
 
-wts=q=> q.reverse()[0]==='wolf'?
-'Pls go away and stop eating my sheep': 
-`Oi! Sheep number ${q.indexOf('wolf')}! You are about to be eaten by a wolf!`;
+	wts=q=> q.reverse()[0]==='wolf'?
+	'Pls go away and stop eating my sheep': 
+	`Oi! Sheep number ${q.indexOf('wolf')}! You are about to be eaten by a wolf!`;
 
 // 367: Keep up the hoop
 hc=n=> n>9? 'Great, now move on to tricks':'Keep at it until you get it';
@@ -1718,10 +1718,10 @@ fp=(l,p)=> (d= Math.min(~~(l/2)*.05, .25), np=+(l*(p - d)).toFixed(2))
 cf=s=> s.split``.reduce((ac,c)=> (ac[c] = ac[c]||0)+1) && ac, {};
 cf=s=> [...s].reduce((ac,c)=> ({...ac, [c]:(ac[c]||0)+1}),{});
 function cf(s) {
-a={}; 
-for(c of s) if(a[c])a[c]++
-else a[c] = 1;
-return a;	}
+	a={}; 
+	for(c of s) if(a[c])a[c]++
+		else a[c] = 1;
+	return a;	}
 
 // 371: Sum of Multiples
 sm=(n,m, i=m)=> n>=m? 'INVALID': Array(m/n).fill(n).reduce((ac,v,i)=> ac+(v*i),0);
@@ -1764,9 +1764,9 @@ max=a=> a.sort((a,b)=>b-a)[0];//.shift()
 // 384: No zeros for heros
 nbz=n=>{
 	while(n%10==0 && n!==0) n/=10;
-  return n;} 
+	return n;} 
 
-nbz=n=> +`${n}`.replace(/0*$/,'');
+	nbz=n=> +`${n}`.replace(/0*$/,'');
 
 // 385: The Feast of Many Beasts
 f=(b,d)=> b[0]+b[b.length-1] == d[0]+d[d.length-1];
@@ -1800,7 +1800,7 @@ eo=n=> n&1? 'Odd':'Even';
 // 393: Beginner Series #2 Clock
 p=(h,m,s)=> h*3.6e6+m*6e4+s*1e3
 
-// 394:Coefficients of the Quadratic Equation
+// 394: Coefficients of the Quadratic Equation
 q=(b,c)=> [1, -(b+c), b*c]
 
 // 395: Smallest unused ID

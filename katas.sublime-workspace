@@ -1,0 +1,1231 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fu",
+				"function"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"cap",
+				"capitalize"
+			],
+			[
+				"even",
+				"even"
+			],
+			[
+				"fn",
+				"fun\tFunction"
+			],
+			[
+				"sq",
+				"sqrt"
+			],
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"mat",
+				"match"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"u",
+				"userOne"
+			],
+			[
+				"leng",
+				"length"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"s",
+				"string"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"col",
+				"color-interpolation\tproperty"
+			],
+			[
+				"A",
+				"Array"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"per",
+				"Person"
+			],
+			[
+				"fna",
+				"firstName"
+			],
+			[
+				"what",
+				"whatNumberIsIt"
+			],
+			[
+				"sic",
+				"sinonChai"
+			],
+			[
+				"pars",
+				"parseInt"
+			],
+			[
+				"indef",
+				"indexOf"
+			],
+			[
+				"exp",
+				"express"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"request",
+				"requestTime"
+			],
+			[
+				"reques",
+				"requestTime"
+			],
+			[
+				"reqt",
+				"requestTime"
+			],
+			[
+				"addNumbers",
+				"addNumbers"
+			],
+			[
+				"tim",
+				"timbers"
+			],
+			[
+				"S",
+				"Shiver"
+			],
+			[
+				"k",
+				"keys"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"is",
+				"isInteger"
+			],
+			[
+				"cir",
+				"circleArea"
+			],
+			[
+				"las",
+				"lastPlayer"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"t",
+				"true"
+			],
+			[
+				"shark",
+				"sharkSp"
+			],
+			[
+				"ge",
+				"getASCII"
+			],
+			[
+				"g",
+				"gDBPF"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"fon",
+				"font-weight\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"im",
+				"background-image\tproperty"
+			],
+			[
+				"Ma",
+				"Maximo"
+			],
+			[
+				"ma",
+				"getMax"
+			],
+			[
+				"max",
+				"maximo"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"c",
+				"cTot"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"maxl",
+				"maxlength\tAttr"
+			],
+			[
+				"ho",
+				"how-it-feels"
+			],
+			[
+				"vid",
+				"video"
+			],
+			[
+				"backgroun",
+				"background-position\tproperty"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"img",
+				"img-dir"
+			],
+			[
+				"sen",
+				"sensores"
+			],
+			[
+				"gla",
+				"glass-oculos-preto-peq"
+			],
+			[
+				"onmouseo",
+				"onmouseover\tAttr"
+			],
+			[
+				"box-s",
+				"box-shadow\tproperty"
+			],
+			[
+				"text-c",
+				"text-decoration\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"r",
+				"rgba()\tbackground-color"
+			],
+			[
+				"hs",
+				"hsl()\tbackground-color"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"te",
+				"text-indent\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"me",
+				"meta\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "speed.html",
+			"settings":
+			{
+				"buffer_size": 719,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "8kyuu_395_katas.js",
+			"settings":
+			{
+				"buffer_size": 60384,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "7kyuu.js",
+			"settings":
+			{
+				"buffer_size": 15344,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"live",
+				"LiveReload: Help"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"the",
+				"Themr: List themes"
+			],
+			[
+				"mate",
+				"Material Theme: Activate theme"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"enco",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"revers",
+				"Permute Lines: Reverse"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 186.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/HP/Obj/WorkProjects/script.js",
+		"/C/Users/HP/Obj/WorkProjects/script1.js",
+		"/C/Users/HP/Obj/WorkProjects/Produção Médica.html",
+		"/C/Users/HP/Obj/WorkProjects/Produção Enfermagem.html",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/User/snippets/for-in.sublime-snippet",
+		"/C/Users/HP/Obj/JS/Codewars/speed.html",
+		"/C/Users/HP/Obj/JS/7kyuu.js",
+		"/C/Users/HP/Obj/JS/8kyuu_395 katas.js",
+		"/C/Users/HP/Obj/WorkProjects/Calculator/script.js",
+		"/C/Users/HP/Obj/WorkProjects/Academind/server.js",
+		"/C/Users/HP/Obj/JS/gititatry/app.js",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/User/Color Highlight.sublime-settings",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/Color Highlight/Color Highlight.sublime-settings",
+		"/C/Users/HP/Obj/JS/asyncawait",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/Browser Sync/browser_sync_launch.js",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/Browser Sync/browser_sync.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/Browser Sync/node_modules/browser-sync/node_modules/ua-parser-js/test/test.js",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/Browser Sync/node_modules/browser-sync/node_modules/yargs/node_modules/cliui/node_modules/wordwrap/test/break.js",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/LiveReload/server/__init__.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/LiveReload/__init__.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.py",
+		"/C/Users/HP/Obj/JS/7kyuu",
+		"/C/Users/HP/Obj/JS/xx katas.html",
+		"/C/Users/HP/Obj/JS/097. Pre-FizzBuzz Workout #1.html",
+		"/C/Users/HP/Obj/JS/098. Simple Comparison.html",
+		"/C/Users/HP/Obj/JS/099. NBA full 48 minutes average.html",
+		"/C/Users/HP/Obj/JS/100.What's wrong with these identifiers.html",
+		"/C/Users/HP/Downloads/000. Katas.html",
+		"/C/Users/HP/Obj/JS/096. Name Shuffler.html",
+		"/C/Users/HP/Downloads/xx katas.html",
+		"/C/Users/HP/Obj/JS/sublimecss.css",
+		"/C/Users/HP/Obj/JS/example.html",
+		"/C/Users/HP/Obj/JS/sublimetutorial.html",
+		"/C/Users/HP/Obj/JS/018. Removing Elements.html",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/Themr/ThemrFavorites.sublime-settings",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/User/hello_world.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Anki2/addons21/2091361802/reviewer_progress_bar.py",
+		"/C/Users/HP/Obj/API/PB.API/pb.site/src/views/products.ejs",
+		"/C/Users/HP/Obj/API/PB.API/node_modules/debug/LICENSE",
+		"/C/Users/HP/Obj/API/PB.API/node_modules/mongodb/lib/core/auth/sspi.js",
+		"/C/Users/HP/Obj/API/PB.API/node_modules/@hapi/joi/lib/validator.js",
+		"/C/Users/HP/Obj/API/PB.API/package.json",
+		"/C/Users/HP/Obj/API/PB.API/pb.site/src/bootstrap-4.4.1-dist/js/bootstrap.bundle.js",
+		"/C/Users/HP/Obj/API/PB.API/package-lock.json",
+		"/C/Users/HP/Obj/API/sinon.js",
+		"/C/Users/HP/Obj/API/nyc.js",
+		"/C/Users/HP/Obj/API/mocha.js",
+		"/C/Users/HP/Obj/API/style.css",
+		"/C/Users/HP/Obj/API/faker.js",
+		"/C/Users/HP/Obj/API/faker.html",
+		"/C/Users/HP/Obj/API/chai.js",
+		"/C/Users/HP/Obj/JS/000. Default.html",
+		"/C/Users/HP/Obj/React Básico/react-series/package.json",
+		"/C/Users/HP/Obj/React Básico/tutorial-react-master/react-basico/aula-01/index.html",
+		"/C/Users/HP/AppData/Roaming/Anki2/addons21/FreeWeekend/free_weekend.py",
+		"/C/Users/HP/Obj/JS/xx katas",
+		"/C/Users/HP/Obj/JS/080. noobCode 02 - TRICKY QUESTIONS ( primitives and operator precedence).html",
+		"/C/Users/HP/Obj/JS/095. Logical calculator.html",
+		"/C/Users/HP/Obj/JS/024. You Can't Code Under Pressure #1.html",
+		"/C/Users/HP/Obj/JS/094. Grasshopper - Function syntax debugging.html",
+		"/C/Users/HP/Obj/JS/093. Grasshopper - Order of operations.html",
+		"/C/Users/HP/Obj/JS/092.Convert to Binary.html",
+		"/C/Users/HP/Obj/JS/091. Power.html",
+		"/C/Users/HP/Obj/JS/090. Remove First and Last Character Part Two.html",
+		"/C/Users/HP/Obj/JS/089. A bugs trilogy- Episode 1 - Let Math.Random() decide your future.html",
+		"/C/Users/HP/Obj/JS/088. Geometry Basics- Distance between points in 2D.html",
+		"/C/Users/HP/Obj/JS/087. Is your period late.html",
+		"/C/Users/HP/Obj/JS/086. validate code with simple regex.html",
+		"/C/Users/HP/Obj/JS/085. Exclamation marks series #2- Remove all exclamation marks from the end of sentence.html",
+		"/C/Users/HP/Obj/JS/084. Calculate BMI.html",
+		"/C/Users/HP/Obj/JS/083. Is it a number.html",
+		"/C/Users/HP/Obj/JS/082. 5 without numbers !!.html",
+		"/C/Users/HP/Obj/JS/081. Training JS #15- Methods of Number object--toFixed(), toExponential() and toPrecision().html",
+		"/C/Users/HP/Obj/JS/079. Remove the time.html",
+		"/C/Users/HP/Obj/JS/078. ES6 string addition.html",
+		"/C/Users/HP/Obj/JS/077. Swap Values.html",
+		"/C/Users/HP/Obj/JS/076. 8kyu interpreters - HQ9+.html",
+		"/C/Users/HP/Obj/JS/075. Compare within margin.html",
+		"/C/Users/HP/Obj/JS/074. Be Concise IV - Index of an element in an array.html",
+		"/C/Users/HP/Obj/JS/073. Training JS #14- Methods of Number object--toString() and toLocaleString().html",
+		"/C/Users/HP/Obj/JS/072. Object Oriented Piracy.html",
+		"/C/Users/HP/Obj/JS/071. For Twins- 2- Math operations.html",
+		"/C/Users/HP/Obj/JS/070. Not so black box.html",
+		"/C/Users/HP/Obj/JS/069. Implement a Filter function.html",
+		"/C/Users/HP/Obj/JS/067. What is between.html",
+		"/C/Users/HP/Obj/JS/068. Coding 3min - Jumping Dutch act.html",
+		"/C/Users/HP/Obj/API/PB.API/pb.site/src/index.js",
+		"/C/Users/HP/Obj/JS/Kata/067. What is between.html",
+		"/C/Users/HP/Obj/JS/Kata/000. Default.html",
+		"/C/Users/HP/Obj/API/PB.API/src/index.js",
+		"/C/Users/HP/Obj/API/ninja/routes/api.js",
+		"/C/Users/HP/Obj/API/PB.API/src/models/product.js",
+		"/C/Users/HP/Obj/API/ninja/index.js",
+		"/C/Users/HP/Obj/JS/Kata/066. Count the Monkeys!.html",
+		"/C/Users/HP/Obj/JS/Kata/065. Beginner - Lost Without a Map.html",
+		"/C/Users/HP/Obj/JS/Kata/064. Find numbers which are divisible by given number.html",
+		"/C/Users/HP/Obj/JS/Kata/063. Enumerable Magic #25 - Take the First N Elements.html",
+		"/C/Users/HP/Obj/JS/Kata/062. Generate range of integers.html",
+		"/C/Users/HP/Downloads/1972-master/src/services/auth-service.js",
+		"/C/Users/HP/Obj/JS/Kata/061. Classic Hello World.html",
+		"/C/Users/HP/Obj/JS/Kata/060. Is n divisible by x and y.html",
+		"/C/Users/HP/Obj/JS/Kata/059. Century From Year.html",
+		"/C/Users/HP/Obj/JS/Kata/058. Reversed sequence.html",
+		"/C/Users/HP/Obj/JS/Kata/057. The Wide-Mouthed frog!.html",
+		"/C/Users/HP/Obj/JS/Kata/056. Square(n) Sum.html",
+		"/C/Users/HP/Obj/JS/Kata/055. Sum Mixed Array.html",
+		"/C/Users/HP/Obj/JS/Kata/054. Remove First and Last Character.html",
+		"/C/Users/HP/Obj/JS/Kata/053. Grasshopper - Check for factor.html",
+		"/C/Users/HP/Obj/JS/Kata/052. Area or Perimeter.html",
+		"/C/Users/HP/Obj/JS/Kata/051. Keep Hydrated!.html",
+		"/C/Users/HP/Obj/JS/Kata/050. noobCode 01 - SUPERSIZE ME or rather, this integer.html",
+		"/C/Users/HP/Obj/JS/Kata/049. Convert number to reversed array of digits.html",
+		"/C/Users/HP/Obj/JS/Kata/048. Reversed Strings.html",
+		"/C/Users/HP/Obj/JS/Kata/047. Return Negative.html",
+		"/C/Users/HP/Obj/JS/Kata/046. No Loops 2 - You only need one.html",
+		"/C/Users/HP/Obj/JS/Kata/045. Volume of a Cuboid.html",
+		"/C/Users/HP/Obj/JS/Kata/044. Simple Fun #352 - Reagent Formula.html",
+		"/C/Users/HP/Obj/JS/Kata/043. Beginner Series #4 Cockroach.html",
+		"/C/Users/HP/Obj/JS/Kata/042. What's the real floor.html",
+		"/C/Users/HP/Obj/JS/Kata/041. Opposite number.html",
+		"/C/Users/HP/Obj/JS/Kata/040. Grasshopper - Messi goals function.html",
+		"/C/Users/HP/Obj/JS/Kata/039. Holiday VI - Shark Pontoon.html",
+		"/C/Users/HP/Obj/JS/Kata/038. Squash the bugs.html",
+		"/C/Users/HP/Obj/JS/Kata/037. Filling an array (part 1).html",
+		"/C/Users/HP/Obj/JS/Kata/036. How good are you really.html",
+		"/C/Users/HP/Obj/JS/Kata/035. Exclusive or (xor) Logical Operator.html",
+		"/C/Users/HP/Obj/JS/Kata/034. No zeros for heros.html"
+	],
+	"find":
+	{
+		"height": 45.0
+	},
+	"find_in_files":
+	{
+		"height": 205.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".",
+			"8",
+			"prototype",
+			"filter",
+			"erCase",
+			"'Up",
+			"Upp'",
+			"n",
+			"sort n",
+			"erCase",
+			"Array.from",
+			"key",
+			"||0",
+			"|0",
+			"||0",
+			"|0",
+			"||0",
+			"Set",
+			"|0",
+			"| 0",
+			"sort",
+			"set",
+			"Set",
+			"new",
+			"b-a",
+			"a - b",
+			"a-b"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"count"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "speed.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 719,
+						"regions":
+						{
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										94,
+										99
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"regions":
+								[
+									[
+										30,
+										30
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								474,
+								474
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 115.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "8kyuu_395_katas.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 60384,
+						"regions":
+						{
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										9047,
+										9052
+									],
+									[
+										20506,
+										20511
+									],
+									[
+										20664,
+										20669
+									],
+									[
+										50415,
+										50420
+									],
+									[
+										50575,
+										50580
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"regions":
+								[
+									[
+										9032,
+										9032
+									],
+									[
+										20461,
+										20461
+									],
+									[
+										20619,
+										20619
+									],
+									[
+										50346,
+										50346
+									],
+									[
+										50504,
+										50504
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_008000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										58163,
+										58168
+									],
+									[
+										58203,
+										58208
+									],
+									[
+										58246,
+										58251
+									]
+								],
+								"scope": "col_008000FF"
+							},
+							"col_008000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_008000FF_circle.png",
+								"regions":
+								[
+									[
+										58150,
+										58150
+									],
+									[
+										58211,
+										58211
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_335522FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5953,
+										5957
+									]
+								],
+								"scope": "col_335522FF"
+							},
+							"col_335522FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_335522FF_circle.png",
+								"regions":
+								[
+									[
+										5934,
+										5934
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_800080FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										22330,
+										22336
+									]
+								],
+								"scope": "col_800080FF"
+							},
+							"col_800080FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_800080FF_circle.png",
+								"regions":
+								[
+									[
+										22277,
+										22277
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FF0000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										4205,
+										4208
+									],
+									[
+										22340,
+										22343
+									],
+									[
+										58196,
+										58199
+									],
+									[
+										58237,
+										58240
+									]
+								],
+								"scope": "col_FF0000FF"
+							},
+							"col_FF0000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FF0000FF_circle.png",
+								"regions":
+								[
+									[
+										4163,
+										4163
+									],
+									[
+										22277,
+										22277
+									],
+									[
+										58150,
+										58150
+									],
+									[
+										58211,
+										58211
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFD700FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										40096,
+										40100
+									],
+									[
+										40173,
+										40177
+									],
+									[
+										40206,
+										40210
+									]
+								],
+								"scope": "col_FFD700FF"
+							},
+							"col_FFD700FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFD700FF_circle.png",
+								"regions":
+								[
+									[
+										40069,
+										40069
+									],
+									[
+										40150,
+										40150
+									],
+									[
+										40180,
+										40180
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFF00FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										22320,
+										22326
+									],
+									[
+										58172,
+										58178
+									],
+									[
+										58186,
+										58192
+									],
+									[
+										58224,
+										58230
+									]
+								],
+								"scope": "col_FFFF00FF"
+							},
+							"col_FFFF00FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFF00FF_circle.png",
+								"regions":
+								[
+									[
+										22277,
+										22277
+									],
+									[
+										58150,
+										58150
+									],
+									[
+										58211,
+										58211
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										20498,
+										20503
+									],
+									[
+										20514,
+										20519
+									],
+									[
+										20656,
+										20661
+									],
+									[
+										22311,
+										22316
+									],
+									[
+										50423,
+										50428
+									],
+									[
+										50583,
+										50588
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										20461,
+										20461
+									],
+									[
+										20619,
+										20619
+									],
+									[
+										22277,
+										22277
+									],
+									[
+										50346,
+										50346
+									],
+									[
+										50504,
+										50504
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								56908,
+								56917
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 38666.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "7kyuu.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15344,
+						"regions":
+						{
+							"col_D2691EFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										6660,
+										6669
+									]
+								],
+								"scope": "col_D2691EFF"
+							},
+							"col_D2691EFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_D2691EFF_circle.png",
+								"regions":
+								[
+									[
+										6643,
+										6643
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								15284,
+								15284
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8243.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 71.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 151.0
+	},
+	"pinned_build_system": "",
+	"project": "katas.sublime-project",
+	"replace":
+	{
+		"height": 81.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"validator",
+				"node_modules\\@hapi\\joi\\lib\\validator.js"
+			],
+			[
+				"jav",
+				"node_modules\\@hapi\\joi\\lib\\validator.js"
+			],
+			[
+				"css",
+				"node_modules\\mongodb\\lib\\core\\auth\\sspi.js"
+			],
+			[
+				"lic",
+				"node_modules\\debug\\LICENSE"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 207.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
